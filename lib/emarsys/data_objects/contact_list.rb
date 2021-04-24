@@ -25,7 +25,7 @@ module Emarsys
       end
 
       def contacts_with_data(id, account: nil, **params)
-        get account, "contactlist/#{id}/contacts/data/", params
+        get account, "contactlist/#{id}/contacts/data", params
       end
 
       # Create a new contact list
